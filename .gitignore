@@ -507,6 +507,11 @@ terraform.tfstate.backup
 # Sonar Lint
 .idea/**/sonarlint
 
-# JetBrains Rider Specific
+# Rider
 .idea/
-*.idea
+*.sln.iml
+*.suo
+*.user
+*.userprefs
+*.dotCover
+*.dotSettings
