@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrightForce.Application", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrightForce.API", "FrightForce.API\FrightForce.API.csproj", "{B6FC87EA-6682-46D3-A204-68F0364F9D7D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{22B8E7A6-B764-4763-85DF-93FC08B44B53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{7DAC2826-CED9-4EE0-A63B-5BE66C7E2213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrightForce.IntegrationTests", "FrightForce.IntegrationTests\FrightForce.IntegrationTests.csproj", "{51FB7DA8-380A-4CF9-9516-E4859A2AA5EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,11 +39,22 @@ Global
 		{B6FC87EA-6682-46D3-A204-68F0364F9D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6FC87EA-6682-46D3-A204-68F0364F9D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6FC87EA-6682-46D3-A204-68F0364F9D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FB7DA8-380A-4CF9-9516-E4859A2AA5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FB7DA8-380A-4CF9-9516-E4859A2AA5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FB7DA8-380A-4CF9-9516-E4859A2AA5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FB7DA8-380A-4CF9-9516-E4859A2AA5EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8FDCFFC-50B0-4760-9EE2-7CB0837A1006}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6FC87EA-6682-46D3-A204-68F0364F9D7D} = {7DAC2826-CED9-4EE0-A63B-5BE66C7E2213}
+		{79D6EC01-EC07-443A-957F-2D66B6F7C1D6} = {7DAC2826-CED9-4EE0-A63B-5BE66C7E2213}
+		{51CD19F7-B85E-4163-B776-E6C57BE09964} = {7DAC2826-CED9-4EE0-A63B-5BE66C7E2213}
+		{7BCFA617-9512-45B7-A6B7-E7A99466F314} = {7DAC2826-CED9-4EE0-A63B-5BE66C7E2213}
+		{51FB7DA8-380A-4CF9-9516-E4859A2AA5EF} = {22B8E7A6-B764-4763-85DF-93FC08B44B53}
 	EndGlobalSection
 EndGlobal

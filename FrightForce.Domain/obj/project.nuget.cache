@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9IDd00Knd2rlQ5W3CsZOosR8UHpVWTlNRwrnoQi9ArEJLykLIVMvnpC279rX5nYF/TwgaiDtgN7dZV6MIibEtg==",
+  "dgSpecHash": "CZPjvr+nmLfq9UEjqJnUuyP5TKF+8T9qyXq5YEKg/GyVTjsw8PITOUwn71iI/LjeqbZnj+tMRyYa2ZHcEJhRRw==",
   "success": true,
-  "projectFilePath": "D:\\My Projects\\FrightForce\\FrightForce.API\\FrightForce.Domain\\FrightForce.Domain.csproj",
+  "projectFilePath": "D:\\My Projects\\Dot Net Core Apps\\FrightForceProject\\FrightForce.API\\FrightForce.Domain\\FrightForce.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

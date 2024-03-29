@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Projects\\FrightForce\\FrightForce.API\\FrightForce.Application\\FrightForce.Application.csproj": {}
+    "D:\\My Projects\\Dot Net Core Apps\\FrightForceProject\\FrightForce.API\\FrightForce.Application\\FrightForce.Application.csproj": {}
   },
   "projects": {
-    "D:\\My Projects\\FrightForce\\FrightForce.API\\FrightForce.Application\\FrightForce.Application.csproj": {
+    "D:\\My Projects\\Dot Net Core Apps\\FrightForceProject\\FrightForce.API\\FrightForce.Application\\FrightForce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Projects\\FrightForce\\FrightForce.API\\FrightForce.Application\\FrightForce.Application.csproj",
+        "projectUniqueName": "D:\\My Projects\\Dot Net Core Apps\\FrightForceProject\\FrightForce.API\\FrightForce.Application\\FrightForce.Application.csproj",
         "projectName": "FrightForce.Application",
-        "projectPath": "D:\\My Projects\\FrightForce\\FrightForce.API\\FrightForce.Application\\FrightForce.Application.csproj",
+        "projectPath": "D:\\My Projects\\Dot Net Core Apps\\FrightForceProject\\FrightForce.API\\FrightForce.Application\\FrightForce.Application.csproj",
         "packagesPath": "C:\\Users\\rajit\\.nuget\\packages\\",
-        "outputPath": "D:\\My Projects\\FrightForce\\FrightForce.API\\FrightForce.Application\\obj\\",
+        "outputPath": "D:\\My Projects\\Dot Net Core Apps\\FrightForceProject\\FrightForce.API\\FrightForce.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rajit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {

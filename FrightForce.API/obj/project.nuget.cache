@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nOlCEDWOD1bREqmTF4G7uz41anOh9AKgR6HvtYD0/PryRRTpHL181/Iw2J9plsMsxbzpy8U1yc4ozhFoXqCARg==",
+  "dgSpecHash": "iajmhvJDicXV4nGbj33noUKOxbN/ZtkxVGhlOAHv12ruUS8eHfO8vWzFAeLI3igWZKVwf86huahCVFpiYvwaQA==",
   "success": true,
-  "projectFilePath": "D:\\My Projects\\FrightForce\\FrightForce.API\\FrightForce.API\\FrightForce.API.csproj",
+  "projectFilePath": "D:\\My Projects\\Dot Net Core Apps\\FrightForceProject\\FrightForce.API\\FrightForce.API\\FrightForce.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rajit\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\rajit\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\rajit\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\rajit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\rajit\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\rajit\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\rajit\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
