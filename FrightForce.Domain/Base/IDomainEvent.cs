@@ -1,5 +1,0 @@
-namespace FrightForce.Domain.Base;
-
-public interface IDomainEvent : IEvent
-{
-}
