@@ -1,6 +1,8 @@
+using MediatR;
+
 namespace FrightForce.Domain.Base;
 
-public interface IEvent
+public interface IEvent: INotification
 {
     
 }

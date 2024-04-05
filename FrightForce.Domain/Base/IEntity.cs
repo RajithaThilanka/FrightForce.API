@@ -1,6 +1,6 @@
 namespace FrightForce.Domain.Base;
 
-public class IEntity
+public interface IEntity<TKey>
 {
-    
+    TKey Id { get; set; }
 }

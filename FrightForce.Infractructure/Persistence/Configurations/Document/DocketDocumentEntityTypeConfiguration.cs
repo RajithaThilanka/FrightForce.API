@@ -1,6 +1,17 @@
-namespace FrightForce.Infractructure.Persistence.Document;
+using FrightForce.Domain.Documents;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-public class DocketDocumentEntityTypeConfiguration
+namespace FrightForce.Infractructure.Persistence.Configurations.Document;
+
+public class DocketDocumentEntityTypeConfiguration : IEntityTypeConfiguration<DocketDocument>
 {
     
+    private const string TableName = "ff_docket_documents";
+
+    public void Configure(EntityTypeBuilder<DocketDocument> builder)
+    {
+        builder.ToTable(TableName, FrightForceDbContext.DefaultSchema);
+
+    }
 }

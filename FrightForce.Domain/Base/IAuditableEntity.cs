@@ -1,6 +1,6 @@
 namespace FrightForce.Domain.Base;
 
-public interface IAuditableEntity
+public interface IAuditableEntity<TKey> : IEntity<TKey>, IAuditable
 {
-    
+
 }

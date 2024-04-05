@@ -1,6 +1,8 @@
 namespace FrightForce.Infractructure.Persistence.Exceptions;
 
-public class PersistenceException
+public class PersistenceException : Exception
 {
-    
+    public PersistenceException(string message) : base(message)
+    {
+    }
 }

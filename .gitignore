@@ -509,9 +509,15 @@ terraform.tfstate.backup
 
 # Rider
 .idea/
-*.sln.iml
-*.suo
-*.user
-*.userprefs
-*.dotCover
 *.dotSettings
+
+# Compiled binary and intermediate files
+**/bin/
+**/obj/
+# Other files and folders that look like they should be ignored
+**/*.cache
+**/GeneratedFiles/
+**/TempPE/
+.vs/**
+FrightForce.Application/obj/
+FrightForce.Domain/obj/

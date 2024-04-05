@@ -1,6 +1,4 @@
 namespace FrightForce.Domain.Base;
 
-public class IntegrationEventWrapper
-{
-    
-}
+public record IntegrationEventWrapper<TDomainEventType>(TDomainEventType DomainEvent) : IIntegrationEvent
+    where TDomainEventType : IDomainEvent;

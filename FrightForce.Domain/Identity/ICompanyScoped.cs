@@ -1,6 +1,6 @@
 namespace FrightForce.Domain.Identity;
 
-public interface ICompanyScoped
+public interface ICompanyScoped<TKey>
 {
-    
+    public TKey CompanyId { get; set; }
 }

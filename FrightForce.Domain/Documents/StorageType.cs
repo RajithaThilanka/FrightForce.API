@@ -1,6 +1,6 @@
 namespace FrightForce.Domain.Documents;
 
-public struct StorageType
+public enum StorageType
 {
     Database,
     LocalDisk,

@@ -1,6 +1,8 @@
+using DotNetCore.CAP.Filter;
+
 namespace FrightForce.Infractructure.CAP;
 
-public class EventBusInterceptor
+public abstract class EventBusInterceptor : SubscribeFilter
 {
-    
+
 }

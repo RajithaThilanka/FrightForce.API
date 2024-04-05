@@ -2,7 +2,7 @@ using FrightForce.Domain.Documents;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace FrightForce.Infractructure.Persistence.Document;
+namespace FrightForce.Infractructure.Persistence.Configurations.Document;
 
 public class DocketEntityTypeConfiguration: IEntityTypeConfiguration<Docket>
 {
@@ -24,5 +24,5 @@ public class DocketEntityTypeConfiguration: IEntityTypeConfiguration<Docket>
                         .WithMany().HasForeignKey(d => d.DocketId).IsRequired(false)
             );
         
-    } 
+    }
 }
