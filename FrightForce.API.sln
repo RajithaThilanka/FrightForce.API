@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrightForce.Infractructure", "FrightForce.Infractructure\FrightForce.Infractructure.csproj", "{7BCFA617-9512-45B7-A6B7-E7A99466F314}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrightForce.Infrastructure", "FrightForce.Infrastructure\FrightForce.Infrastructure.csproj", "{7BCFA617-9512-45B7-A6B7-E7A99466F314}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrightForce.Domain", "FrightForce.Domain\FrightForce.Domain.csproj", "{51CD19F7-B85E-4163-B776-E6C57BE09964}"
 EndProject

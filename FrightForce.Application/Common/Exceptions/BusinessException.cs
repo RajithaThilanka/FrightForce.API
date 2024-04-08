@@ -36,4 +36,10 @@ public class BusinessException: Exception
     {
         public NotFoundException(string message) : base(message) { }
     }
+    public class DocketNotFoundException : BusinessException
+    {
+        public DocketNotFoundException(string message) : base(message)
+        {
+        }
+    }
 }

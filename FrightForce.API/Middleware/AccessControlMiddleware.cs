@@ -1,4 +1,5 @@
 using FrightForce.Infractructure.Persistence;
+using FrightForce.Infrastructure.Persistence;
 using Microsoft.Extensions.Caching.Memory;
 
 namespace FrightForce.API.Middleware;

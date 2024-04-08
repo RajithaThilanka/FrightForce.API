@@ -1,7 +1,10 @@
 using System.Reflection;
 using FrightForce.Application.Common.Behaviours;
+using FrightForce.Application.Common.Cashing;
 using FrightForce.Application.Common.Services;
+using FrightForce.Application.Services;
 using FrightForce.Domain.Base;
+using FrightForce.Domain.Documents;
 using Mapster;
 using MapsterMapper;
 using MediatR;
@@ -28,7 +31,7 @@ public static class ConfigureServices
         //services.AddScoped<IIdentityService, DefaultIdentityService>();
 
         services.AddScoped(typeof(IPipelineBehavior<,>), typeof(EfTxBehaviour<,>));
-        //services.AddScoped<IDocumentService,DocumentService>();
+        services.AddScoped<IDocumentService,DocumentService>();
             
 
         return services;
@@ -41,6 +44,8 @@ public static class ConfigureServices
         services.AddMediatR(config =>
             config.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies())
         );
+        services.AddTransient(typeof(IPipelineBehavior<,>), typeof(QueryCachingBehavior<,>));
+        services.AddMemoryCache();
         return services;
     }
 

@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <PackageReference Include="DotNetEnv" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,12 +23,8 @@
   <ItemGroup>
     <ProjectReference Include="..\FrightForce.Application\FrightForce.Application.csproj" />
     <ProjectReference Include="..\FrightForce.Domain\FrightForce.Domain.csproj" />
-    <ProjectReference Include="..\FrightForce.Infractructure\FrightForce.Infractructure.csproj" />
+    <ProjectReference Include="..\FrightForce.Infrastructure\FrightForce.Infrastructure.csproj" />
     <ProjectReference Include="..\FrightForce.IntegrationTests\FrightForce.IntegrationTests.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\Rest\" />
   </ItemGroup>
 
 </Project>
