@@ -27,4 +27,8 @@
     <ProjectReference Include="..\FrightForce.IntegrationTests\FrightForce.IntegrationTests.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+
 </Project>
